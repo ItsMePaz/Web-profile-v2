@@ -4,14 +4,14 @@ import subtitlestroke from "../../public/skillsbg.png";
 
 const SkillsSection = () => {
   return (
-    <section>
+    <section className="px-[0px]">
       <div className="relative flex flex-col justify-center mt-4 items-center">
-        <h2 className="absolute z-20 text-white">Skills</h2>
-        <img className="w-[100px] z-10" src={titlestroke.src} alt="" />
+        <h2 className="absolute z-20 text-white text-[30px]">Skills</h2>
+        <img className="w-[160px] z-10" src={titlestroke.src} alt="" />
       </div>
       <div className="relative flex flex-col justify-center mt-4 items-center">
-        <h2 className="absolute z-20 text-black">Frontend</h2>
-        <img className="w-[100px] z-10" src={subtitlestroke.src} alt="" />
+        <h2 className="absolute z-20 text-black text-[25px]">Frontend</h2>
+        <img className="w-[130px] z-10" src={subtitlestroke.src} alt="" />
       </div>
       <article className="mt-3 grid grid-cols-3 gap-4 text-center">
         <h1 className="text-[#E34F26] flex items-center justify-center">
@@ -22,15 +22,15 @@ const SkillsSection = () => {
         <h1 className="text-[#F0DB4F]">JavaScript</h1>
         <h1 className="text-[#0BC9E3]">ReactJS</h1>
         <div className="text-[#4DB2C0]">TailwindCSS</div>
-        <h1 className="col-span-3 flex justify-center gap-4 text-center">
+        <h1 className="col-span-3 flex justify-center gap-7 text-center">
           <h1 className="text-[#2D79C7]">TypeScript</h1>
           <div>NextJS</div>
         </h1>
       </article>
       {/* Start of backend techs */}
       <div className="relative flex flex-col justify-center mt-8 items-center">
-        <h2 className="absolute z-20 text-black">Backend</h2>
-        <img className="w-[100px] z-10" src={subtitlestroke.src} alt="" />
+        <h2 className="absolute z-20 text-black text-[25px]">Backend</h2>
+        <img className="w-[130px] z-10" src={subtitlestroke.src} alt="" />
       </div>
       <article className="mt-3 grid grid-cols-3 gap-4 text-center">
         <h1 className="text-[#E34F26]">Java</h1>
@@ -43,8 +43,8 @@ const SkillsSection = () => {
       </article>
       {/* Start of other development tools */}
       <div className="relative flex flex-col justify-center mt-8 items-center">
-        <h2 className="absolute z-20 text-black">Dev Tools</h2>
-        <img className="w-[100px] z-10" src={subtitlestroke.src} alt="" />
+        <h2 className="absolute z-20 text-black text-[25px]">Dev Tools</h2>
+        <img className="w-[130px] z-10" src={subtitlestroke.src} alt="" />
       </div>
       <article className="mt-3 grid grid-cols-3 gap-4 text-center mb-8">
         <h1>Git</h1>

@@ -16,6 +16,12 @@ const HeroSection = () => {
       <h1 className="font-bold text-[20px] mt-[20px] z-10">
         A Full-Stack Web Developer
       </h1>
+      <p className="mt-3 text-[14px]">
+        A person who is passionate about web development and currently has a
+        strong foundation with Java-React Stack. I am always open to learning
+        new technologies as I aim to be a highly adaptable developer to be able
+        to create better websites.{" "}
+      </p>
 
       <div className="absolute right-0 w-[90px] h-auto z-10">
         <img src={hero.src} alt="" />

@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import NavigationBar from "@/components/NavigationBar";
 import NavigationMenuMobileAndTablet from "@/components/NavigationMenuMobileAndTablet";
+import ProjectsSection from "@/components/ProjectSection";
 import SkillsSection from "@/components/SkillsSection";
 import { useState } from "react";
 import { Element } from "react-scroll";
@@ -22,7 +23,7 @@ export default function Home() {
       </Element>
       <Element
         name="skills"
-        className="mt-4 bg-white h-auto w-screen flex justify-center rounded-lg shadow-inner ml-9 mr-9"
+        className="mt-4 bg-white h-auto w-screen flex justify-center rounded-lg shadow-inner "
       >
         <SkillsSection />
       </Element>
@@ -30,7 +31,7 @@ export default function Home() {
         name="projects"
         className="mt-4 bg-white h-auto w-screen flex justify-center rounded-lg shadow-inn"
       >
-        <section>a</section>
+        <ProjectsSection />
       </Element>
       <Element
         name="contacts"
