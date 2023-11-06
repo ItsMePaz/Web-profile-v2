@@ -22,7 +22,7 @@ const NavigationMenuMobileAndTablet = ({
   };
   return (
     <div
-      className="absolute top-0 h-screen w-screen z-20 shadow-2xl z-50"
+      className="absolute top-0 h-screen w-screen shadow-2xl z-50"
       style={{
         position: showMobileMenu ? "fixed" : "fixed",
         left: showMobileMenu ? "50%" : "100%",
@@ -30,7 +30,7 @@ const NavigationMenuMobileAndTablet = ({
       }}
     >
       <nav>
-        <div className="bg-[#eff0f0] h-screen mr-[50%] min-w-[50%] ">
+        <div className="bg-[#eff0f0] h-screen mr-[50%] min-w-[50%] sm:min-w-[30%]">
           <ul className="flex flex-col">
             <li className="relative h-[75px] bg-[rgb(255,255,255)] flex items-center">
               <button
@@ -74,11 +74,12 @@ const NavigationMenuMobileAndTablet = ({
             </button>
             <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
               <Link
+                className="flex items-center"
                 activeClass="active"
                 to="contacts"
                 spy={true}
                 smooth={true}
-                offset={-70} // Adjust the offset based on your specific layout
+                offset={-70}
                 duration={500}
               >
                 <img
