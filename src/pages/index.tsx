@@ -1,3 +1,4 @@
+import FooterSection from "@/components/FooterSection";
 import HeroSection from "@/components/HeroSection";
 import NavigationBar from "@/components/NavigationBar";
 import NavigationMenuMobileAndTablet from "@/components/NavigationMenuMobileAndTablet";
@@ -42,6 +43,9 @@ export default function Home() {
       >
         <SendMessage />
       </Element>
+      <footer>
+        <FooterSection />
+      </footer>
     </main>
   );
 }
