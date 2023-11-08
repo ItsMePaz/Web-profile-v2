@@ -20,7 +20,7 @@ const ProjectsSection = () => {
         <h2 className="absolute z-20 text-white text-[25px]">PROJECTS</h2>
         <img className="w-[170px] z-10 " src={titlestroke.src} alt="" />
       </div>
-      <div className="grid grid-cols-1 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <ProjectCard
           projectTitle="Shopping web application"
           heroProject={shopHero}
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
           thirdProjectImage={shopThirdImage}
           fourthProjectImage={shopFourthImage}
           techUsed='<p>A simple static 
-        web application having some of the basic add-to-cart features.</p>
+        web application having the basic add-to-cart features; selecting, quantifying, removing, and getting results from bought items.</p>
         </br>
         <p>This is a collaborative project, created using Vanilla <span style="color:#E34F26;">HTML<span/>, 
         <span style="color:#254EE4">CSS<span/>, 
