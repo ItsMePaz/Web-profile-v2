@@ -41,8 +41,8 @@ const ProjectCard = ({
         alt=""
       />
       <div className="flex flex-col items-center">
-        <div className="absolute top-0 flex flex-col z-20">
-          <div className="relative flex flex-col justify-center mt-4 items-center w-screen">
+        <div className="absolute top-0 flex flex-col z-20 lg:items-center">
+          <div className="relative flex flex-col justify-center mt-4 items-center w-screen lg:w-[70%]">
             <h2 className="absolute z-20 text-black text-[25px]">
               {projectTitle}
             </h2>

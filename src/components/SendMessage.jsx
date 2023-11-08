@@ -68,7 +68,7 @@ const SendMessage = () => {
           <span className="block text-sm font-medium text-slate-700">Name</span>
           <input
             type="text"
-            className="border w-[280px] peer font-sans px-1"
+            className="border border-neutral-950 w-[280px] peer font-sans px-1"
             required
             placeholder="Your name here!"
             name="user_name"
@@ -91,7 +91,7 @@ const SendMessage = () => {
           </span>
           <input
             type="email"
-            className="border w-[280px] peer ... font-sans px-1"
+            className="border w-[280px] border-neutral-950 peer ... font-sans px-1"
             required
             placeholder="Your email here!"
             name="user_email"
@@ -124,7 +124,7 @@ const SendMessage = () => {
           </span>
           <textarea
             type="text"
-            className="border w-[280px] pb-[200px] px-1 peer ... font-sans text-left align-text-top mb-4"
+            className="border w-[280px] pb-[200px] border-neutral-950 px-1 peer ... font-sans text-left align-text-top mb-4"
             required
             name="message"
             value={senderMessage}
