@@ -1,7 +1,11 @@
+import FooterSection from "@/components/FooterSection";
 import HeroSection from "@/components/HeroSection";
 import NavigationBar from "@/components/NavigationBar";
 import NavigationMenuMobileAndTablet from "@/components/NavigationMenuMobileAndTablet";
+import NavigationMenu from "@/components/NavigationMenuMobileAndTablet";
+
 import ProjectsSection from "@/components/ProjectSection";
+import SendMessage from "@/components/SendMessage";
 import SkillsSection from "@/components/SkillsSection";
 import { useState } from "react";
 import { Element } from "react-scroll";
@@ -37,8 +41,11 @@ export default function Home() {
         name="contacts"
         className="mt-4 bg-white h-auto w-screen flex justify-center rounded-lg shadow-inn"
       >
-        <section>a</section>
+        <SendMessage />
       </Element>
+      <footer>
+        <FooterSection />
+      </footer>
     </main>
   );
 }

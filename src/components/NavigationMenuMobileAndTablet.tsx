@@ -22,7 +22,7 @@ const NavigationMenuMobileAndTablet = ({
   };
   return (
     <div
-      className="absolute top-0 h-screen w-screen z-20 shadow-2xl z-50"
+      className="absolute top-0 h-screen w-screen ml-[5px] min-[450px]:w-[80%] min-[450px]:ml-[10%] sm:w-[55%] sm:ml-[23%] lg:w-[30%] lg:ml-[35%] shadow-2xl z-50 "
       style={{
         position: showMobileMenu ? "fixed" : "fixed",
         left: showMobileMenu ? "50%" : "100%",
@@ -30,7 +30,7 @@ const NavigationMenuMobileAndTablet = ({
       }}
     >
       <nav>
-        <div className="bg-[#eff0f0] h-screen mr-[50%] min-w-[50%] ">
+        <div className="bg-[#eff0f0] h-screen mr-[50%]  min-w-[50%]">
           <ul className="flex flex-col">
             <li className="relative h-[75px] bg-[rgb(255,255,255)] flex items-center">
               <button
@@ -41,45 +41,82 @@ const NavigationMenuMobileAndTablet = ({
               </button>
             </li>
             <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
-              <img
-                className="w-[40px] absolute left-2"
-                src={home.src}
-                alt="home.gif"
-              />
-              <p>Home</p>
-            </button>
-            <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
-              <img
-                className="w-[40px] absolute left-2"
-                src={skills.src}
-                alt="skills.gif"
-              />
-              <p>Skills</p>
-            </button>
-            <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
-              <img
-                className="w-[40px] absolute left-2"
-                src={projects.src}
-                alt="projects.gif"
-              />
-              <p>Projects</p>
-            </button>
-            <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
-              <img
-                className="w-[40px] absolute left-2"
-                src={contacts.src}
-                alt="contacts.gif"
-              />
-              <p>Contacts</p>
+              <Link
+                className="flex items-center"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <img
+                  className="w-[40px] absolute left-2"
+                  src={home.src}
+                  alt="home.gif"
+                />
+                <p>Home</p>
+              </Link>
             </button>
             <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
               <Link
+                className="flex items-center"
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <img
+                  className="w-[40px] absolute left-2"
+                  src={skills.src}
+                  alt="skills.gif"
+                />
+                <p>Skills</p>
+              </Link>
+            </button>
+            <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
+              <Link
+                className="flex items-center"
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <img
+                  className="w-[40px] absolute left-2"
+                  src={projects.src}
+                  alt="projects.gif"
+                />
+                <p>Projects</p>
+              </Link>
+            </button>
+            <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
+              <Link
+                className="flex items-center"
                 activeClass="active"
                 to="contacts"
                 spy={true}
                 smooth={true}
-                offset={-70} // Adjust the offset based on your specific layout
+                offset={-70}
                 duration={500}
+              >
+                <img
+                  className="w-[40px] absolute left-2"
+                  src={contacts.src}
+                  alt="contacts.gif"
+                />
+                <p>Contacts</p>
+              </Link>
+            </button>
+            <button className="h-[50px] pr-3 flex items-center justify-end relative bg-white rounded-xl mt-3 mx-3 shadow-inner">
+              <a
+                className="flex items-center"
+                href="https://drive.google.com/file/d/1hvAYedxXYWjaq2DkoDC6ffRuPVs-jd2D/view?usp=sharing"
+                target="_blank"
               >
                 <img
                   className="w-[40px] absolute left-2"
@@ -87,7 +124,7 @@ const NavigationMenuMobileAndTablet = ({
                   alt="resume.gif"
                 />
                 <p>Resume</p>
-              </Link>
+              </a>
             </button>
           </ul>
         </div>
