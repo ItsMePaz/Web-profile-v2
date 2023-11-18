@@ -12,21 +12,21 @@ const FooterSection = () => {
         href="https://www.linkedin.com/in/michael-andrew-paz-012651245/"
         target="_blank"
       >
-        <img className="h-[35px]" src={linkedin.src} alt="" />
+        <img className="h-[35px]" src={linkedin.src} alt="linkedin_logo" />
       </a>
       <a
         className="cursor-pointer"
         href="mailto:pazmichaelandrew70@gmail.com"
         target="_blank"
       >
-        <img className="h-[35px]" src={gmail.src} alt="" />
+        <img className="h-[35px]" src={gmail.src} alt="gmail_logo" />
       </a>
       <a
         className="cursor-pointer"
         href="mailto:pazmichaelandrew70@gmail.com"
         target="_blank"
       >
-        <img className="h-[35px]" src={github.src} alt="" />
+        <img className="h-[35px]" src={github.src} alt="github.logo" />
       </a>
     </div>
   );
