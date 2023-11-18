@@ -38,7 +38,7 @@ const ProjectCard = ({
         className="mt-[-100px] h-[350px]"
         style={{ height: whiteBgHeight }}
         src={carddetailsbg.src}
-        alt=""
+        alt="card_bg"
       />
       <div className="flex flex-col items-center">
         <div className="absolute top-0 flex flex-col z-20 lg:items-center">
@@ -49,7 +49,7 @@ const ProjectCard = ({
             <img
               className="w-screen h-[35px] z-10"
               src={subtitlestroke.src}
-              alt="prject image"
+              alt="project image"
             />
           </div>
         </div>
@@ -57,22 +57,22 @@ const ProjectCard = ({
           <img
             className="w-[150px] shadow-inner rounded-sm"
             src={heroProject.src}
-            alt=""
+            alt="project_screenshot"
           />
           <img
             className="w-[150px] shadow-inner rounded-sm"
             src={secondProjectImage.src}
-            alt=""
+            alt="project_screenshot"
           />
           <img
             className="w-[150px] shadow-inner rounded-sm"
             src={thirdProjectImage.src}
-            alt=""
+            alt="project_screenshot"
           />
           <img
             className="w-[150px] shadow-inner rounded-sm"
             src={fourthProjectImage.src}
-            alt=""
+            alt="project_screenshot"
           />
         </div>
         <div className="absolute flex flex-col justify-center bottom-16 z-20 items-center text-justify w-[300px]">
@@ -88,7 +88,7 @@ const ProjectCard = ({
             </button>
             <button>
               <a href={linkToRepo} target="_blank">
-                <img className="h-10 w-10" src={gh.src} alt="" />
+                <img className="h-10 w-10" src={gh.src} alt="gh_logo" />
               </a>
             </button>
           </div>
