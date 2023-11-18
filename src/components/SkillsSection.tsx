@@ -7,19 +7,11 @@ const SkillsSection = () => {
     <section className="px-[0px]">
       <div className="relative flex flex-col justify-center mt-4 items-center">
         <h2 className="absolute z-20 text-white text-[30px]">Skills</h2>
-        <img
-          className="w-[160px] z-10"
-          src={titlestroke.src}
-          alt="sub_title_bg"
-        />
+        <img className="w-[160px] z-10" src={titlestroke.src} alt="" />
       </div>
       <div className="relative flex flex-col justify-center mt-4 items-center">
         <h2 className="absolute z-20 text-black text-[25px]">Frontend</h2>
-        <img
-          className="w-[130px] z-10"
-          src={subtitlestroke.src}
-          alt="sub_title_bg"
-        />
+        <img className="w-[130px] z-10" src={subtitlestroke.src} alt="" />
       </div>
       <article className="mt-3 grid grid-cols-3 gap-4 text-center">
         <h1 className=" flex items-center justify-center">
@@ -39,11 +31,7 @@ const SkillsSection = () => {
       {/* Start of backend techs */}
       <div className="relative flex flex-col justify-center mt-8 items-center">
         <h2 className="absolute z-20 text-black text-[25px]">Backend</h2>
-        <img
-          className="w-[130px] z-10"
-          src={subtitlestroke.src}
-          alt="sub_title_bg"
-        />
+        <img className="w-[130px] z-10" src={subtitlestroke.src} alt="" />
       </div>
       <article className="mt-3 grid grid-cols-3 gap-4 text-center">
         <h1 /* className="text-[#E34F26]" */>Java</h1>
@@ -57,11 +45,7 @@ const SkillsSection = () => {
       {/* Start of other development tools */}
       <div className="relative flex flex-col justify-center mt-8 items-center">
         <h2 className="absolute z-20 text-black text-[25px]">Dev Tools</h2>
-        <img
-          className="w-[130px] z-10"
-          src={subtitlestroke.src}
-          alt="sub_title_bg"
-        />
+        <img className="w-[130px] z-10" src={subtitlestroke.src} alt="" />
       </div>
       <article className="mt-3 grid grid-cols-3 gap-4 text-center mb-8">
         <h1>Git</h1>

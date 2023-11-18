@@ -33,10 +33,10 @@ const ProjectsSection = () => {
         <p>This is a collaborative project, created using Vanilla <span style="color:#E34F26;">HTML<span/>, 
         <span style="color:#254EE4">CSS<span/>, 
         <span style="color:black">and</span>
-         <span style="color:#F0DB4F">JavaScript<span/> <span style="color:black">with the use of the API concept</span></p><br/><br/><br/>'
+         <span style="color:#F0DB4F">JavaScript<span/> <span style="color:black">with the use of the API concept</span></p>'
           linkToLiveLink="https://itsmepaz.github.io/shopping-site/"
           linkToRepo="https://github.com/ItsMePaz/shopping-site"
-          whiteBgHeight="470px"
+          whiteBgHeight=""
         />
         <ProjectCard
           projectTitle="Visitor Management System"
@@ -44,14 +44,14 @@ const ProjectsSection = () => {
           secondProjectImage={vmsSecondImage}
           thirdProjectImage={vmsThirdImage}
           fourthProjectImage={vmsFourthImage}
-          techUsed="<p>A web application that lets you create user 
+          techUsed="<p>A web application that offers features such as creating user 
           accounts and being able to store and query visitor data.</p>
         </br>
         <p>This is a collaborative project, created using the MERN stack. 
         My full responsibility in this project is the design,
          code & business logic of the entire frontend, and deployment. 
          All using <span style='color:#0BC9E3'>REACT</span> + <span style='color:#cd00cd'>VITE</span> and <span style='color:#4DB2C0'>TailwindCSS</span>.
-         </p></br></br>
+         </p></br>
         
        "
           linkToLiveLink="https://hello-vms.vercel.app/"

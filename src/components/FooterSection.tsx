@@ -2,7 +2,6 @@ import React from "react";
 
 import linkedin from "../../public/linkedin.png";
 import gmail from "../../public/gmail.png";
-import github from "../../public/github.png";
 
 const FooterSection = () => {
   return (
@@ -20,13 +19,6 @@ const FooterSection = () => {
         target="_blank"
       >
         <img className="h-[35px]" src={gmail.src} alt="" />
-      </a>
-      <a
-        className="cursor-pointer"
-        href="mailto:pazmichaelandrew70@gmail.com"
-        target="_blank"
-      >
-        <img className="h-[35px]" src={github.src} alt="" />
       </a>
     </div>
   );

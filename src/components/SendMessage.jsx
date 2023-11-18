@@ -104,15 +104,27 @@ const SendMessage = () => {
             Please provide a valid email address.
           </p>
         </label>
-        <label className="block ">
+        {/*  <label className="block">
+          <span className="block text-sm font-medium text-slate-700">
+            Subject
+          </span>
+          <input
+            type="text"
+            className="border w-[280px] peer ... font-sans px-1 mb-4"
+            required
+            value={senderSubject}
+            onChange={(e) => {
+              setSenderSubject(e.target.value);
+            }}
+          ></input>
+        </label> */}
+        <label className="block">
           <span className="block text-sm font-medium text-slate-700 ">
             Message
           </span>
           <textarea
             type="text"
             className="border w-[280px] pb-[200px] border-neutral-950 px-1 peer ... font-sans text-left align-text-top mb-4"
-            style={{ resize: "none" }}
-            placeholder="Place your message here!"
             required
             name="message"
             value={senderMessage}
